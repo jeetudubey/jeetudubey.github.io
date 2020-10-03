@@ -5,7 +5,7 @@ var operators = ["+","/","-","%","*"]
 var operands = ["1","2","3","4","5","6","7","8","9","0","."]
 var op1 = ""
 var op2 = ""
-var result = 0
+var result = 0 
 for(let i=0;i<buttons.length;i++){
     buttons[i].addEventListener("click",function(){
         var value = buttons[i].innerText
@@ -91,9 +91,9 @@ $(".button").click(function(){
 
     }
 
-
+alert(value);
     if (operators.includes(value)){
-
+alert('hello');
 
         op2 = op2 + op1 + value;
 
